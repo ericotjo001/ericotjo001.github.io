@@ -266,3 +266,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 #updatingbouncingdot{
 	font-size: 24px;
 }
+
+#researchstatement{
+	padding: 16px;
+	text-align: justify;
+}
