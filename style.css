@@ -271,3 +271,23 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 	padding: 16px;
 	text-align: justify;
 }
+
+/* unvisited link */
+a:link {
+  color:  #00AAAA;
+}
+
+/* visited link */
+a:visited {
+  color:  #00AAAA;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: hotpink;
+}
