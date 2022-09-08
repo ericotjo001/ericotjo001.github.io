@@ -291,3 +291,30 @@ a:hover {
 a:active {
   color: hotpink;
 }
+
+.glow{
+	animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 3px #FF4400, 0 0 4px #FF7781;
+  }
+  
+  to {
+    text-shadow: 0 0 4px #fff, 0 0 3x #FF5500, 0 0 4px #FF4414, 0 0 5px #FF7799;
+  }
+}
+
+
+a.upd:link {text-decoration: none !important;}
+a.upd:visited {text-decoration: none !important;}
+a.upd:hover {text-decoration: none !important;}
+a.upd:active {text-decoration: none !important;}
+
+
+.infobox2{
+	color: grey;
+	padding-left: 16px;
+	padding-right: 16px;
+}
